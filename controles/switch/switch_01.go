@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var s string = notasParaConceito(6.4)
-	fmt.Println(s)
+	fmt.Println(notasParaConceito(6.4))
+	fmt.Println(notasParaConceito(1.4))
+	fmt.Println(notasParaConceito(-1.4))
 }
 
 func notasParaConceito(n float64) string {
